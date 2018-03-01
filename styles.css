@@ -1,0 +1,136 @@
+/* CSS Document */
+
+
+   
+    /* font */
+    @import url('https://fonts.googleapis.com/css?family=Lato|Lobster|Merriweather|Oswald|PT+Sans+Narrow|Rammetto+One|Ubuntu');
+h1 {
+	color : white;
+	font-size: 40px;
+	background-color: black;
+	padding: 7px;
+	text-align: left;
+}
+.navigation {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: black;
+	font-family: 'PT Sans Narrow', sans-serif;
+	letter-spacing: 1.6px;
+}
+.navigation li {
+	float: left;
+}
+.navigation li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+.navigation li a:hover:not(.active) {
+	background-color: #111;
+}
+.active {
+	background-color: darkcyan;
+}
+body {
+	background-color: antiquewhite;
+	color: black;
+}
+.introduction-1 {
+	background-color: #285c7c;
+	margin: 0;
+	color: #ffffff;
+	/* border-right:5px red solid;
+        border-left:5px red solid;
+        border-bottom: 5px red solid;
+        border-top:5px red solid;*/
+        
+        /*same as above*/
+	border: 5px red solid;
+	border-width: 3px;
+	padding-left: 10px;
+	/*padding:10px;*/
+        
+	margin-top: 20px;
+	margin-left: 10px;
+	font-family: 'Ubuntu', sans-serif;
+	letter-spacing: 1px;
+	line-height: 25px;
+}
+.introduction-1 h2 {
+	font-weight: 800;
+	/*font-style:italic;*/
+        /*text-decoration: underline;*/
+	text-transform: uppercase;
+	letter-spacing: 1px;/* word-spacing: 1px; */
+}
+.container {
+	width: 50%;/*margin:auto; */
+}
+}
+.class-list h2 {
+	padding-left: 10px;
+	text-transform: uppercase;
+	font-family: 'Ubuntu', sans-serif;
+	letter-spacing: 1px;
+	line-height: 25px;
+}
+.class-list {
+	position: inherit;
+	margin-top: 20px;
+	margin-left: 10px;
+	background-color: #618acc;
+	border: 5px red solid;
+	border-width: 3px;
+	font-family: 'Ubuntu', sans-serif;
+	color: #fff;
+	line-height: 25px;
+}
+.question1 {
+	border: 5px red solid;
+	border-width: 3px;
+	background-color: #5b5f84;
+	position: relative;
+	top: 17px;
+	left: 10px;
+	padding-left: 10px;
+	width: 48%;
+	font-family: 'Ubuntu', sans-serif;
+	letter-spacing: 1px;
+	line-height: 25px;
+	color: white;
+	padding-bottom: 10px;
+}
+.question1 h2 {
+	text-transform: uppercase;
+}
+}
+.myform {
+	padding: 10px;
+	color: white;
+	font-family: 'Ubuntu', sans-serif;
+}
+.myform .form-group {
+	padding-bottom: 15px;
+}
+.myform label {
+	display: block;
+}
+.myform input[type="text"], .myform textarea {
+	padding: 10px;
+	width: 48%;
+}
+.buttom1 {
+	background-color: #333;
+	color: #fff;
+	padding: 10px 15px;
+	border: none;
+}
+.buttom1:hover {
+	background-color: grey;
+}
+}
